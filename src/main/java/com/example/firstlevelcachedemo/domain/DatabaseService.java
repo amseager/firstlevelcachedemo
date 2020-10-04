@@ -27,6 +27,6 @@ public class DatabaseService {
 		userRepository.findUserById(1L);
 		userRepository.findUserById(1L);
 		userRepository.findUserById(1L);
-		log.info("End to call default findUserById");
+		log.info("End to call custom findUserById");
 	}
 }
